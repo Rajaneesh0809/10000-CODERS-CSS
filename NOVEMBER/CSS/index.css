@@ -1,0 +1,181 @@
+table {
+    /* width: 50%; */
+    margin: 0 auto;
+    font-size: 20px;
+    border: 0px solid black;
+    border-collapse: separate;
+}
+
+th, td {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.tr1 {
+    font-weight: bold;
+}
+#td11:hover::after {
+    content: " #00ffff";
+    color: black;
+    font-weight: bold; 
+}
+#td12:hover::after {
+    content: " #000000";
+    color: white;
+    font-weight: bold;
+}
+#td13:hover::after {
+    content: " #0000ff"; 
+    color: white; 
+    font-weight: bold;
+}
+#td14:hover::after {
+    content: " #ff00ff";
+    color: black; 
+    font-weight: bold; 
+}
+
+
+.tr2 {
+    font-style: italic;
+}
+
+#td21 {
+    background-color: gray;
+}
+#td21:hover::after {
+    content: " #808080"; 
+    color: white; 
+    font-weight: bold;
+}
+
+
+#td22 {
+    background-color: green;
+}
+#td22:hover::after {
+    content: " #008000"; 
+    color: white;
+    font-weight: bold;
+}
+
+
+#td23 {
+    background-color: lime;
+}
+#td23:hover::after {
+    content: " #00ff00"; 
+    color: black;
+    font-weight: bold; 
+}
+
+#td24 {
+    background-color: #800000;
+}
+#td24:hover::after {
+    content: " #800000"; 
+    color: white; 
+    font-weight: bold; 
+}
+
+.tr3 {
+    font-family: Brush Script MT;
+}
+
+
+#td31 {
+    background-color: navy;
+}
+#td31:hover::after {
+    content: " #000080"; 
+    color: white; 
+    font-weight: bold;
+}
+
+
+#td32 {
+    background-color: olive;
+}
+#td32:hover::after {
+    content: " #808000"; 
+    color: black; 
+    font-weight: bold; 
+}
+
+
+#td33 {
+    background-color: purple;
+}
+#td33:hover::after {
+    content: " #800080";
+    color: white;
+    font-weight: bold;
+}
+
+
+#td34 {
+    background-color: red;
+}
+#td34:hover::after {
+    content: " #ff0000"; 
+    color: black; 
+    font-weight: bold; 
+}
+
+
+.tr4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#td41 {
+    background-color: silver;
+}
+#td41:hover::after {
+    content: " #c0c0c0"; 
+    color: black; 
+    font-weight: bold; 
+}
+
+
+#td42 {
+    background-color: teal;
+}
+#td42:hover::after {
+    content: " #008080"; 
+    color: white; 
+    font-weight: bold; 
+}
+
+#td43 {
+    background-color: pink;
+}
+#td43:hover::after {
+    content: " #ffc0cb"; 
+    color: black; 
+    font-weight: bold; 
+}
+
+
+#td44 {
+    background-color: yellow;
+    
+}
+
+
+#td44:hover::after {
+    content: " #ffff00"; 
+    color: black; 
+    font-weight: bold; 
+}
+
+#td11:hover, #td12:hover, #td13:hover, #td14:hover,
+#td21:hover, #td22:hover, #td23:hover, #td24:hover,
+#td31:hover, #td32:hover, #td33:hover, #td34:hover,
+#td41:hover, #td42:hover, #td43:hover, #td44:hover {
+    
+    transform: scale(1.35); /* Increase size by 20% */
+    transition: transform 0.3s ease; /* Smooth transition */
+    
+}
