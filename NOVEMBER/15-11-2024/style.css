@@ -87,7 +87,7 @@ body {
   
 .b1 {
     border: 2px solid orange;
-    margin-left: 158px;
+    margin-left: 157.5px;
     margin-top: -670px;
     height: 60px;
     width: 350px;
@@ -96,7 +96,7 @@ body {
  
 .b2 {
     border: 2px solid white;
-    margin-left: 158px;
+    margin-left: 157.5px;
     height: 60px;
     width: 350px;
     background-color: white;
@@ -105,7 +105,7 @@ body {
  
 .b3 {
     border: 2px solid green;
-    margin-left: 158px;
+    margin-left: 157.5px;
     height: 60px;
     width: 350px;
     background-color: green;
