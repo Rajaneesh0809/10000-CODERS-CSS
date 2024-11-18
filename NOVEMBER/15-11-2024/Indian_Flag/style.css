@@ -118,24 +118,28 @@ body {
     width: 38px;
     border-radius: 500px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #p1 {
+    
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -12px;
+    /* margin-left: 18px; */
+    /* margin-top: -12px; */
+    
     background-color: blue;
     /* transform: rotate(90deg); */
-     /* Rotates the line by 45 degrees */
-    transform-origin: center;  /* Sets the pivot point for the rotation */
+    transform-origin: center;  
 }
 
 #p2 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
     transform: rotate(15deg);
     transform-origin: center;
@@ -144,100 +148,98 @@ body {
 #p3 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(30deg);
-    transform-origin: center; 
+    transform: rotate(15deg);
+    transform-origin: center;
 }
 
 #p4 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(45deg);
-    transform-origin: center; 
+    transform: rotate(15deg);
+    transform-origin: center;
 }
 
 #p5 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(60deg);
-    transform-origin: center; 
+    transform: rotate(15deg);
+    transform-origin: center;
 }
 
 #p6 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(75deg);
-    transform-origin: center; 
-}
+    transform: rotate(15deg);
+    transform-origin: center;
 
 #p7 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(90deg);
+    transform: rotate(15deg);
     transform-origin: center; 
 }
 
 #p8 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(105deg);
-    transform-origin: center; 
-}
+    transform: rotate(15deg);
+    transform-origin: center;
 
 #p9 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(120deg);
+    transform: rotate(15deg);
     transform-origin: center; 
 }
 
 #p10 {
     width: 2px;
     height: 60px;
-    margin-left: 18px;
-    margin-top: -59px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(135deg);
-    transform-origin: center; 
+    transform: rotate(15deg);
+    transform-origin: center;
 }
 
 #p11 {
     width: 2px;
-    height: 59px;
-    margin-left: 18px;
-    margin-top: -59px;
+    height: 60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(150deg);
-    transform-origin: center; 
+    transform: rotate(15deg);
+    transform-origin: center;
 }
 
 #p12 {
     width: 2px;
-    height: 59px;
-    margin-left: 18px;
-    margin-top: -60px;
+    height: 60px;
+    /* margin-left: px; */
+    /* margin-top: -60px; */
     background-color: blue;
-    transform: rotate(-15deg);
-    transform-origin: center; 
+    transform: rotate(15deg);
+    transform-origin: center;
 }
 
