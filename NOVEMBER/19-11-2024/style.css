@@ -3,13 +3,13 @@ body {
 }
 
 #main {
-    height: 500px;
-    width: 50%;
+    height: 50%;
+    width: 60%;
     background-color: beige;
     margin: auto;
     box-shadow: 0px 0px 20px black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #one {
@@ -39,11 +39,6 @@ body {
     overflow-y: scroll;
 }
 
-#text {
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
-}
 
 #hovering:hover+ #desc {
     visibility: visible;
