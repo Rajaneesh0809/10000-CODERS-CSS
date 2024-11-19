@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #container {
     width: 200px;
     margin: auto;
@@ -65,3 +66,72 @@
     margin: auto;
     background-color: black;
 }
+=======
+#container {
+    width: 200px;
+    margin: auto;
+}
+#box {
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    width: 100px;
+    height: 300px;
+}
+
+#red {
+    border: 2px solid red;
+    background-color: gray;
+    padding: 10px;
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+#yellow {
+    border: 2px solid yellow;
+    background-color: gray;
+    padding: 10px;
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+#green {
+    border: 2px solid green;
+    background-color: gray;
+    padding: 10px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+#red:hover {
+    background-color: red;    
+}
+
+#yellow:hover {
+    background-color: yellow;
+}
+
+#green:hover {
+    background-color: green;
+
+}
+
+#pole {
+        border: 3px solid black;
+        height: 200px;
+        width: 3px;
+        background-color: black;
+        margin: auto;
+}
+
+#stand {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    margin: auto;
+    background-color: black;
+}
+>>>>>>> 2a28031602f0d8fa9a54d5c315e02b213eae6fdf
