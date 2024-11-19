@@ -175,7 +175,7 @@ th, td {
 #td31:hover, #td32:hover, #td33:hover, #td34:hover,
 #td41:hover, #td42:hover, #td43:hover, #td44:hover {
     
-    transform: scale(1.35); /* Increase size by 20% */
+    transform: scale(1.35); /* Increase size by 35% */
     transition: transform 0.3s ease; /* Smooth transition */
     
 }
