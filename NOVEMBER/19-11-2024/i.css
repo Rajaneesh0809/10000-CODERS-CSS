@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#page{
+    border: solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 1500px; */
+    width:65%;
+    box-shadow: 0 0 50px white;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sub-heading{
+    text-decoration: underline;
+}
+
+.content{
+    text-align: justify;
+}
+
+.practice{
+    overflow-x: scroll;
+    border: solid white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* hides the scroll-bar */
+.practice::-webkit-scrollbar{
+    display: none;
+    /* visibility: hidden; */
+}
+
+#practicetext2{
+    border: solid white;
+    width: 100%;
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+}
+
+#practicetext2::-webkit-scrollbar{
+    display: none;
+    /* visibility: hidden; */
+}
+
+#showuptext{
+    display: none;
+}
+#practicetext2:hover ~ #showuptext{
+    display: block;
+}
