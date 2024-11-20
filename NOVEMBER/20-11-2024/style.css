@@ -1,0 +1,153 @@
+body {
+    background-color: aliceblue;
+}
+
+#screen {
+    border: 15px solid;
+    height: 700px;
+    width: 300px;
+    margin: 30px auto;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: powderblue;
+}
+
+#profile_banner {
+    border-bottom: px solid green;
+    width: auto;
+    margin: auto;
+    height: auto;
+    min-height: 40px;
+    background-color: black;
+    display: flex;
+}
+
+#back {
+    height: 30px;
+    margin-left: 2%;
+    margin-top: auto;
+    width: 30px;
+    margin-bottom: auto;
+}
+
+#pic {
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 2%;
+    margin-top: auto;
+    width: 30px;
+    margin-bottom: auto;
+}
+
+#name {
+    
+    margin-left: 5%;
+    margin-right: auto;
+    color: rgb(255, 140, 0);
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#call {
+    height: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#videocall {
+    height: 25px;
+    color: white;
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#chat {
+    overflow-y: scroll;
+    height: 88%;
+}
+
+#chat::-webkit-scrollbar {
+    display: none;
+}
+
+#m1, #m2{
+    border-radius: 30px;
+    width: max-content;
+    max-width: 50%;
+    padding: 5px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#m1{
+    border: solid blue;
+    background-color: blue;
+    margin-left: auto;
+    color: white;
+    margin-right: 2%;
+    margin-top: 5%;
+    
+}
+
+#m2{
+    margin-left: 2%;
+    background-color: wheat;
+    border: solid wheat;
+    margin-right: auto;
+    color: black;
+}
+
+#newmsg {
+    border: 2px solid;
+    border-radius: 50px;
+    width: auto;
+    margin: auto;
+    background-color: black;
+    max-height: 50px;
+    height: auto;
+    display: flex;
+    position: relative;
+    bottom: 10px;
+
+}
+
+#emoji {
+    height: 30px;
+    margin-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30px;
+}
+
+#msg {
+    width: 70%;
+    margin-left: 2%;
+    margin-right: auto;
+    overflow-y: scroll;
+
+}
+
+#msg::-webkit-scrollbar {
+    display: none;
+}
+
+#msg p {
+    opacity: 0.5;
+    color: white;
+
+}
+
+#send {
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+}
