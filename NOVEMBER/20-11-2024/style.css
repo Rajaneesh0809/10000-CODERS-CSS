@@ -73,7 +73,7 @@ body {
 
 #chat {
     overflow-y: scroll;
-    height: 85%;
+    height: 70%;
 }
 
 #chat::-webkit-scrollbar {
