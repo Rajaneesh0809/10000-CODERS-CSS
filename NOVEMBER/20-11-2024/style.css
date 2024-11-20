@@ -4,22 +4,26 @@ body {
 
 #screen {
     border: 15px solid;
-    height: 700px;
-    width: 300px;
-    margin: 30px auto;
-    justify-content: center;
-    border-radius: 20px;
+    height: 750px;
+    width: 340px;
+    margin: auto auto;
+    /* justify-content: center; */
+    border-radius: 50px;
     background-color: powderblue;
 }
 
 #profile_banner {
-    border-bottom: px solid green;
     width: auto;
     margin: auto;
     height: auto;
-    min-height: 40px;
+    min-height: 50px;
     background-color: black;
     display: flex;
+    position: relative;
+    top: -1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
 }
 
 #back {
@@ -108,14 +112,14 @@ body {
 #newmsg {
     border: 2px solid;
     border-radius: 50px;
-    width: auto;
+    width: 95%;
     margin: auto;
     background-color: black;
     max-height: 50px;
     height: auto;
     display: flex;
     position: relative;
-    bottom: 10px;
+    bottom: 15px;
 
 }
 
