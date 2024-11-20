@@ -73,7 +73,7 @@ body {
 
 #chat {
     overflow-y: scroll;
-    height: 88%;
+    height: 85%;
 }
 
 #chat::-webkit-scrollbar {
@@ -118,8 +118,8 @@ body {
     max-height: 50px;
     height: auto;
     display: flex;
-    position: relative;
-    bottom: 15px;
+    /* position: relative; */
+    /* bottom: 15px; */
 
 }
 
