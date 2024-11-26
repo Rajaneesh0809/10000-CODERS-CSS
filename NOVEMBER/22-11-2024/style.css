@@ -27,7 +27,6 @@ body {
 #record {
     margin-left: auto;
     min-height: auto;
-    /* max-height: 5%; */
     max-width: 25%;
 }
 
@@ -38,7 +37,7 @@ body {
     max-width: 80%;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
 }
 
 .participants-tiles::-webkit-scrollbar {
@@ -49,8 +48,8 @@ body {
 .participants-tiles > div {
     border: 3px solid rgb(46, 51, 56);
     background-color: rgb(46, 51, 56);
-    height: 150px;
-    width: 200px;
+    height: 185px;
+    width: 300px;
     justify-content: flex-start;
     align-items: flex-end;
     color: white;
