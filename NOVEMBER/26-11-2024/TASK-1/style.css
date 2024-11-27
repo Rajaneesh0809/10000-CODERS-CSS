@@ -54,7 +54,6 @@ body {
   height: 250px;
   background-color: powderblue;
   box-shadow: 0px 0px 10px white;
-  /* flex-grow: 1; */
 }
 
 .two2 {
@@ -65,8 +64,6 @@ body {
   background-color: powderblue;
   height: 500px;
   box-shadow: 0px 0px 10px white;
-  /* margin-left: 60px; */
-  /* margin-right: 60px; */
 }
 
 .three {
