@@ -7,6 +7,9 @@ body {
   width: 90%;
   margin: auto;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .one {
   border: 5px solid black;
@@ -50,9 +53,9 @@ body {
 .two1 {
   border: 5px solid black;
   border-radius: 100px;
-  width: 30%;
-  /* width: 200px; */
+  width: 300px;
   height: 400px;
+  flex-grow: 1;
   background-color: powderblue;
   box-shadow: 0px 0px 10px white;
 }
@@ -60,11 +63,10 @@ body {
 .two2 {
   border: 5px solid black;
   border-radius: 100px;
-  width: 30%;
-  /* width: 200px; */
-  flex-grow: 3;
-  background-color: powderblue;
+  width: 300px;
   height: 500px;
+  flex-grow: 2;
+  background-color: powderblue;
   box-shadow: 0px 0px 10px white;
 }
 
