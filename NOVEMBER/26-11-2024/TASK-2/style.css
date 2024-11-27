@@ -1,0 +1,94 @@
+body {
+    background-color: powderblue;
+}
+
+.d1 {
+    border: 10px solid;
+    width: 260px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.img1 {
+    border: 5px solid;
+    border-radius: 50%;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.title1{
+    height: 50px;
+}
+
+.country1 {
+    height: 50px;
+}
+
+.flag1 {
+    height: 150px;
+    width: 200px;
+    margin: 30px auto 5px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:400px){
+    .img1 {
+        background: url("./1.jpeg") no-repeat;
+        background-size: cover;
+    }
+
+    .title1 {
+        background: url("./1.png") no-repeat center;
+    }
+    
+    .country1 {
+        background: url("./1-t.png") no-repeat center;
+    }
+
+    .flag1 {
+        background: url("./1-f.png") no-repeat center;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:800px){
+    .img1 {
+        background: url("./2.avif") no-repeat;
+        background-size: cover;
+    }
+
+    .title1 {
+        background: url("./2-t.png") no-repeat center;
+    }
+    
+    .country1 {
+        background: url("./2-c.png") no-repeat center;
+    }
+
+    .flag1 {
+        background: url("./2-f.png") no-repeat center;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width:801px){
+    .img1 {
+        background: url("./3.jpeg") no-repeat;
+        background-size: cover;
+    }
+
+    .title1 {
+        background: url("./3-t.png") no-repeat center;
+    }
+    
+    .country1 {
+        background: url("./3-c.png") no-repeat center;
+    }
+
+    .flag1 {
+        background: url("./3-f.webp") no-repeat center;
+        background-size: contain;
+    }
+}
