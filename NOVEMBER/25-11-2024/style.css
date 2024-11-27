@@ -39,8 +39,7 @@ body {
     gap: 30px;
     justify-content: space-evenly;
     margin-top: 20px;
-    background-color: black;
-    
+    background-color: black;  
 }
 
 .two1 {
@@ -48,7 +47,6 @@ body {
     border-radius: 100px;
     width: 20%;
     background-color: powderblue;
-    /* flex-grow: 1; */
 }
 
 .two2 {
@@ -57,7 +55,6 @@ body {
     width: 20%;
     flex-grow: 2;
     background-color: powderblue;
-
 }
 
 .three {
@@ -78,5 +75,4 @@ body {
     border: 5px solid black;
     width: 25%;
     background-color: powderblue;
-
 }
