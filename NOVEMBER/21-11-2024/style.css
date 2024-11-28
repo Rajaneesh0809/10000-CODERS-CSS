@@ -47,18 +47,31 @@ a:hover {
 }
 
 section > h2 {
+    padding: 2%;
+    margin: auto;
+    width: max-content;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
-section > h3 {
-    text-align: center;
-}
-
-section > p {
+p {
     text-align: justify;
+}
+
+#ss > p, #ed > p{
+    text-align: center;
+}
+
+section > ul {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+section {
+    text-align: center;
     padding-left: 2%;
     padding-right: 2%;
+
 }
 
 .content::-webkit-scrollbar {
@@ -73,4 +86,10 @@ section > p {
     background-color: wheat;
     color: black;
     border: 2px solid black;
+    /* h2 {
+        background-color: aquamarine;
+        border: 2px solid;
+        border-radius: 30px;
+        margin-top: 2%;
+    } */
 }
