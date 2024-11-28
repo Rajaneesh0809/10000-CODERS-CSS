@@ -1,0 +1,37 @@
+body {
+    background-color: powderblue;
+}
+
+.container {
+    border: 3px solid;
+    background-color: black;
+    width: 330px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    gap: 10px;
+    padding: 3px;
+}
+
+.container > div {
+    color: orange;
+    border: 3px solid;
+    border-radius: 60px;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+}
+
+#output {
+    grid-row: 1/5;
+    grid-column: 1/5;
+    border: 2px solid orange;
+    border-radius: 30px;
+}
+
+#equal {
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+}
