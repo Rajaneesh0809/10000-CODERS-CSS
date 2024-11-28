@@ -38,7 +38,8 @@ a:hover {
     border: 2px solid;
     width: 70vw;
     margin: auto;
-    padding-right: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
     font-size: large;
     scroll-margin-top: 10px;
     margin-top: 20px;
@@ -46,36 +47,14 @@ a:hover {
 
 }
 
-section > h2 {
+section > h2 , h3{
     padding: 2%;
     margin: auto;
-    width: max-content;
     text-align: center;
-    /* text-decoration: underline; */
-}
-
-p {
-    text-align: justify;
 }
 
 #ss > p, #ed > p{
     text-align: center;
-}
-
-section > ul {
-    padding-left: 7%;
-    padding-right: 7%;
-}
-
-section {
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-
-}
-
-.content::-webkit-scrollbar {
-    display: none;
 }
 
 #ps, #ts, #ss, #in, #pr, #ed, #ce {
@@ -86,10 +65,4 @@ section {
     background-color: wheat;
     color: black;
     border: 2px solid black;
-    /* h2 {
-        background-color: aquamarine;
-        border: 2px solid;
-        border-radius: 30px;
-        margin-top: 2%;
-    } */
 }
