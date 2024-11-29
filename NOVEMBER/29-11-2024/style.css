@@ -1,10 +1,8 @@
 body {
-    background-color: powderblue;
+    background-color: black;
 }
 
 .gd {
-    border: 2px solid;
-    background-color: white;
     display: grid;
     min-width: 320px;
     max-width: 40vw;
@@ -50,8 +48,6 @@ body {
 }
 
 .gd2 {
-    border: 2px solid;
-    background-color: white;
     display: grid;
     min-width: 320px;
     max-width: 40vw;
@@ -111,12 +107,10 @@ body {
 }
 
 .gd3 {
-    border: 2px solid;
     min-width: 320px;
     max-width: 40vw;
     margin: auto;
     height: 25vh;
-    background-color: white;
     display: grid;
     grid-template-areas:
     "i34 i35 i35 i31"
