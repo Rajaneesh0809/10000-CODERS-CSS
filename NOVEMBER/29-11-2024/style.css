@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+}
+
+.gd {
+    /* border: 2px solid; */
+    /* background-color: white; */
+    display: grid;
+    width: 50vw;
+    margin: auto;
+    height: 50vh;
+    padding: 1%;
+    gap: 2%;
+    grid-template-areas: 
+    "i1 i2 i3"
+    "i4 i6 i6"
+    "i5 i6 i6"
+    ;
+}
+
+.gd > div, .gd2 > div, .gd3 > div {
+    text-align: center;
+    align-content: center;
+}
+
+.i1 {
+    background-color: lawngreen;
+    grid-area: i1;
+}
+.i2 {
+    background-color: blue;
+    grid-area: i2;
+}
+.i3 {
+    background-color: green;
+    grid-area: i3;
+}
+.i4 {
+    background-color: orange;
+    grid-area: i4;
+}
+.i5 {
+    background-color: purple;
+    grid-area: i5;
+}
+.i6 {
+    background-color: darkgoldenrod;
+    grid-area: i6;
+}
+
+.gd2 {
+    /* border: 2px solid; */
+    /* background-color: white; */
+    display: grid;
+    width: 50vw;
+    margin: auto;
+    height: 50vh;
+    padding: 1%;
+    gap: 2%;
+    grid-template-columns: repeat(46, 1fr);
+}
+
+.i21 {
+    background-color: pink;
+    grid-column: 1/10;
+    grid-row: 1/2;
+}
+.i22 {
+    background-color: orange;
+    grid-column: 10/25;
+    grid-row: 1/2;
+}
+.i23 {
+    background-color: rebeccapurple;
+    grid-column: 25/30;
+    grid-row: 1/2;
+}
+.i24 {
+    background-color: red;
+    grid-column: 30/36;
+    grid-row: 1/4;
+
+}
+.i25 {
+    background-color: gray;
+    grid-column: 36/44;
+    grid-row: 1/4;
+
+}
+.i26 {
+    background-color: green;
+    grid-column: 44/46;
+    grid-row: 1/4;
+}
+.i27 {
+    background-color: violet;
+    grid-row: 2/4;
+    grid-column: 1/10;
+}
+.i28 {
+    background-color: maroon;
+    grid-row: 2/4;
+    grid-column: 10/30;
+}
+
+.gd3 {
+    /* border: 2px solid; */
+    /* background-color: white; */
+    width: 50vw;
+    margin: auto;
+    height: 50vh;
+    display: grid;
+    grid-template-areas:
+    "i34 i35 i35 i31"
+    "i34 i37 i32 i36"
+    "i34 i33 i38 i36"
+    ;
+    gap: 10px;
+    padding: 1%;
+}
+
+.i31 {
+    background-color: red;
+    grid-area: i31;
+}
+
+.i32 {
+    background-color: red;
+    grid-area: i32;
+}
+.i33 {
+    background-color: red;
+    grid-area: i33;
+}
+.i34 {
+    background-color: greenyellow;
+    grid-area: i34;
+}
+
+.i35 {
+    background-color: greenyellow;
+    grid-area: i35;
+}
+.i36 {
+    background-color: greenyellow;
+    grid-area: i36;
+}
+.i37 {
+    background-color: orange;
+    grid-area: i37;
+}
+
+.i38 {
+    background-color: orange;
+    grid-area: i38;
+}
