@@ -9,14 +9,16 @@ body {
     height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 75px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 3px;
 }
 
+
 .container > div {
+    font-size: larger;
     color: orange;
-    border: 3px solid;
+    /* border: 3px solid; */
     border-radius: 60px;
     text-align: center;
     align-content: center;
@@ -34,4 +36,9 @@ body {
     border: 3px solid orange;
     background-color: orange;
     color: white;
+}
+
+.container > div:hover {
+    background-color: orange;
+    color: black;
 }
