@@ -1,0 +1,308 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.side_headings {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.side_headings > div {
+    font-size: larger;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    background: url("./assets/welcome-banner.jpg") center;
+    opacity: 0.6;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.welcome > h1 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.welcome > p {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 60px;
+    font-weight: bolder;
+
+}
+
+.welcome > a {
+    text-decoration: none;
+    color: white;
+    padding: 1% 5% 1%;
+    background-color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.form1 {
+    box-sizing: border-box;
+    width: 55vw;
+    margin: auto;
+    gap: 1%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 2%;
+    text-align: center;
+}
+
+input, select {
+    padding: 2%;
+    border: 0px;
+    background-color: rgb(226, 222, 222);
+    font-size: 130%;
+    margin: 18px;
+}
+
+input {
+    display: block;
+    width: max-content;
+    margin: auto;
+    background-color: blue;
+    color: white;
+}
+
+.d1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.di1, .di2, .di3 {
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.img_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.desc {
+    height: 100px;
+}
+
+.desc > p {
+    padding: 2%;
+    text-align: center;
+    margin: 0px;
+}
+
+.di1:hover, .di2:hover, .di3:hover {
+    transform: scale(1.2); /* Increase size by 20% */
+    transition: transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 0px 5px 5px ;
+} 
+
+.best_car {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.best_car_body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.best_car_body > .text > h1 {
+    width: 60%;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.best_car_body > .text > p {
+    width: 60%;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.featured_cars {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.featured_cars_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+    gap: 3%;
+}
+
+.fc1 {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    margin: 2%;
+}
+
+.fc1 > .image{
+    border: 1px solid;    
+    width: min-content;
+    padding: 3%;
+
+}
+.fc1 img {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    margin-bottom: 10px;
+}
+
+.imagetext {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    border-top: 0.5px solid;
+}
+
+.imagetext div {
+    padding: 2%;
+}
+
+.brandlogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+
+}
+
+
+.footer {
+    padding-top: 5%;
+    background-color: rgba(0, 0, 139, 0.727);
+    color: white;
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: white;   
+}
+.elements > div {
+    padding: 10px;
+    width: 20%;
+    margin-right: auto;
+}
+
+@media screen and (min-width:0px) and (max-width:426px){
+    .title {
+        font-size:60%;
+    }
+
+    .side_headings {
+            width: 75%;
+            font-size: 35%;
+    }
+    
+    .best_car_body img {
+        width: 80%;
+    }
+
+    .brandlogos {
+        justify-content: center;
+        gap: 10%;
+    }
+    .brandlogos img {
+        width: 50%;
+    }
+    .elements {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .elements div{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .title {
+        font-size:80%;
+    }
+    .side_headings {
+        width: 70%;
+        font-size: 40%;
+    }
+    .best_car_body img {
+        width: 100%;
+    }
+    .brandlogos {
+        justify-content: space-around;
+        gap: 10%;
+    }
+    .brandlogos img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:769px){
+    .side_headings {
+        width: 70%;
+        font-size: 80%;
+    }
+    .brandlogos {
+        justify-content: space-around;
+        gap: 10%;
+    }
+    .brandlogos img {
+        width: 80%;
+    }
+}
