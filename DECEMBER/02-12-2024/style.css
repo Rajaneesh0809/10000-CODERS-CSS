@@ -1,11 +1,8 @@
 .playground {
     background-color: #E7E9EB;;
-    /* width: 100%; */
     border: 2px solid #E7E9EB; ;
-    /* height: 80vw; */
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
     justify-content: space-around;
     align-items: center;
     padding: 2%;
@@ -14,13 +11,8 @@
 }
 
 .properties {
-    /* background-color: gray; */
     min-width: 30%;
     max-width: 80vw;
-    /* border: 2px solid gray ; */
-    /* display: flex;
-    flex-direction: column; */
-    /* height: 80vw; */
 }
 
 .screen {
@@ -41,7 +33,6 @@
 }
 .screen > p {
     width: 100px;
-    /* height: 120px; */
     padding: 1%;
     background-color: powderblue;
 }
@@ -49,7 +40,6 @@
 label {
     width: 80%;
     display: inline-block;
-    /* border: 2px solid; */
     padding: 2%;
     margin-bottom: 2%;
     background-color: rgba(40, 44, 52, 0.733);
